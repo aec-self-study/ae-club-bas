@@ -1,4 +1,4 @@
-ELECT
+SELECT
   customer_id,
   name,
   email,
