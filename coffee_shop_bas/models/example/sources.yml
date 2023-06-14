@@ -1,8 +1,12 @@
 version: 2
-
+ 
 sources:
   - name: coffee_shop
-    description: data from the orders table
     project: analytics-engineers-club
     tables:
       - name: customers
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
